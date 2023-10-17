@@ -14,12 +14,7 @@ const SignIn = () => {
       </button>
     );
   }
-  return (
-    <GoogleButton
-      className="relative top-64"
-      onClick={() => signIn("google")}
-    />
-  );
+  return <button onClick={() => signIn("google")}>Sign In</button>;
 };
 
 export default SignIn;
