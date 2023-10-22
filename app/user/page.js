@@ -11,7 +11,7 @@ const page = () => {
 
   return (
     <div>
-      User page
+      yOU CAN ACEESS THIS PAGE BECAUSE YOU'RE A USER
       <button>Sign Out</button>
     </div>
   );
